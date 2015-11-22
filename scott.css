@@ -1,0 +1,14 @@
+
+
+.button:hover {
+	background-color: #334455;
+	color: rgba(256,256,256,0.8);
+}
+
+.green {
+	font-size: 200px;
+}
+
+.blue-font.green{
+	color: #FF3333;
+}
