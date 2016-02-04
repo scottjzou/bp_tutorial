@@ -33,7 +33,7 @@ xcode-select --install
 	* `git pull origin master` (to keep updated with our master branch)
 	* `git push origin **your_branch**` (to push to your repository's branch online)
 	* MAKE A PULL REQUEST:
-	![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "MAKE A PULL REQUEST")
+	![alt text](https://github.com/scottjzou/bp_tutorial/blob/master/spring2016/img/pull_request.png "MAKE A PULL REQUEST")
 	
 
 
