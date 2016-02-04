@@ -22,14 +22,18 @@ xcode-select --install
 	* `git clone git@github.com:ttttian/bp.git`
 	
 	Making/Going to your branch
-	* `git branch **branch_name**`
-	* `git checkout **your_name**`
+	* `git branch **branch_name**` (create a branch)
+	* `git checkout **your_name**` (changes to this branch)
 	
 	Add/Commit
-	* `git add **your_file/path**`
-	* `git commit -m **your message**`
+	* `git add **your_file/path**` (let git know what files to keep track of)
+	* `git commit -m **your message**` (let git know to record these changes)
 	
-	
+	Push/Pull(communication with the cloud repository)
+	* `git pull origin master` (to keep updated with our master branch)
+	* `git push origin **your_branch**` (to push to your repository's branch online)
+	* MAKE A PULL REQUEST:
+	![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "MAKE A PULL REQUEST")
 	
 
 
