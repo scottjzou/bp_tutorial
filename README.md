@@ -40,8 +40,8 @@ After switching to your branch:
 	* Push: 
 	`git push origin **your_branch**` (to push to your repository's branch online)
 	* MAKE A PULL REQUEST: (submitting your changes for us to view, or in other way, asking us to pull your branch)
-	
-	![PULL_REQUEST](https://github.com/scottjzou/bp_tutorial/blob/master/spring2016/img/pull_request.png =100x )
+
+	<img src="https://github.com/scottjzou/bp_tutorial/blob/master/spring2016/img/pull_request.png" width="300" alt="Pull Request">
 
 * Other Commands:
 	* git log
