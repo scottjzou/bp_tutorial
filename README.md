@@ -59,17 +59,18 @@ After switching to your branch:
 `brew install pyenv`
 `brew install pyenv-virtualenv`
 `brew install pyenv-pip-migrate`
+* Put these in .bash_profile
+```bash
+	eval "$(pyenv init -)"
+	eval "$(pyenv virtualenv-init -)"
+```
 * Local Virtual Environment:
  	* Go to your BP Folder (the one you `git clone`ed)
  	* `pyenv install 3.5.0` (install this python version)
  	* `pyenv virtualenv 3.5.0 bp` (create a new virtual environment called *bp* with version *3.5.0*)
  	* `pyenv local bp` (set *bp* as the local environment, so everytime you enter this folder, *bp* will be activated)
  	* `pip install -r requirements.txt` (install all the packages listed by us)
- * Put these in .bash_profile
-```bash
-	eval "$(pyenv init -)"
-	eval "$(pyenv virtualenv-init -)"
-```
+
 
 ### .env
 * The setting files, we will send it to you, this contains credentials to access our database and such.
