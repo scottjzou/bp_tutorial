@@ -59,6 +59,7 @@ After switching to your branch:
 `brew install pyenv`
 `brew install pyenv-virtualenv`
 `brew install pyenv-pip-migrate`
+`brew install postgres`
 * Put these in .bash_profile
 ```bash
 	eval "$(pyenv init -)"
