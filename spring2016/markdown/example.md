@@ -10,6 +10,8 @@
 
 * double **: strong.
 
+* ~~Scratch this.~~
+
 * e.g.
 	Writing in Markdown is _not_ *that* hard!
 
@@ -36,8 +38,8 @@ or simply <http://www.berkeleyproject.org>
  
 ### Images
 
-* images work just like links: ![BP Logo](logo.png)
-* Linked logo: [![An alt text if image doesn't exist](logo.png)](http://berkeleyproject.org)
+* images work just like links: ![BP Logo](https://media.licdn.com/media/p/6/005/05b/265/3834f83.png)
+* Linked logo: [![An alt text if image doesn't exist](https://media.licdn.com/media/p/6/005/05b/265/3834f83.png)](http://berkeleyproject.org)
 
 ### Lists
 Unordered List
@@ -62,18 +64,42 @@ Or mix things up:
 3. Item
 		
 ### Code!!!!
-* `this is an inline code`
+`this is an inline code`
 
-* 	```
-	this is whole bunch of code
-	```
-* Or you can be language specific (this is not working in my editor
+
+```
+this is whole bunch of code
+```
+
+Or you can be language specific (this is not working in my editor
 
 ```python
 def print():
 	print "this is python"
 ```
 
+### Tables
+This is annoy:
+
+use this: <http://www.tablesgenerator.com/markdown_tables>
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+### Quotes
+> Just like this, easy
+
+> This is 
+> actually on the same line,
+> just seem to be very long
+
+### Simply adding HTML
+<ul class="social">
+    <li>Just an usual unordered list, except in <a href="google.com">html</a></li>          
+</ul>
 
 ### Footnotes
 I have more [^1] to say up here.
