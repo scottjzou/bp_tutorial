@@ -69,8 +69,9 @@ Or mix things up:
 	```
 * Or you can be language specific (this is not working in my editor
 
-```markdown
-* I am writing *markdown* can't you tell?
+```python
+def print():
+	print "this is python"
 ```
 
 
