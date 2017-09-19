@@ -20,7 +20,7 @@ xcode-select --install
 ```
 * Usage:
 	* Clone:
-	`git clone git@github.com:ttttian/bp.git`
+	`git clone git@github.com:lisalee56/bp.git`
 	
 	* Status:
 	`git status`
